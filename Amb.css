@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  background: url(backgroud.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.rf{
+  position: absolute;
+  padding: 30%;
+  transform: translate(-50% -50%);
+  width: 400px;
+}
+.rf h1{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  margin: 40px 0;
+}
+.rf p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+.rf input{
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+.rf button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: 0.15s;
+}
+.rf button:hover{
+  color: red;
+  cursor: pointer;
+}

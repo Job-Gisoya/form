@@ -1,0 +1,49 @@
+body{
+  background: url(audi\ q7.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+#head{
+  padding-left: 35%;
+  color: red;
+  text-transform: uppercase;
+}
+.x{
+  margin-left: 100px;
+  padding: 50px;
+  padding-top: 50px;
+  color: wheat;
+  font-weight: 900;font-size: 1.6rem;
+}
+.sub{
+  padding-left: 50%;
+}
+.tel{
+  width: 114px;
+}
+.c{
+  margin-top: 10px;
+  height: 46px;
+  width: 90px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-weight: bold;
+  font-weight: 900;
+}
+.c:hover{
+  color: red;
+}
+.c:active{
+  opacity: 0.5;
+}
+input{
+  height: 38px;
+  border-radius: 10px;
+  color: blanchedalmond;
+}
+.m{
+  height: 42px;
+  border-radius: 10px;
+}
